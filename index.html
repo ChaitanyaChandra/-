@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chaitanya Chandra Portfolio Website</title>
@@ -150,20 +151,25 @@
                     <div class="column right">
                         <div class="text">
                             Message me</div>
-                        <form action="/" method="POST">
+                        <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+                            <input type=hidden name="oid" value="00D5g000005IWyD">
+                            <input type=hidden name="retURL" value="http://end.chaitu.net">
                             <div class="fields">
                                 <div class="field name">
-                                    <input type="text" placeholder="Name" name="name" required>
+                                    <input id="last_name" type="text" placeholder="Name" name="last_name" required>
                                 </div>
                                 <div class="field email">
-                                    <input type="email" placeholder="Email" name="email" required>
+                                    <input id="email" type="email" placeholder="Email" name="email" required>
                                 </div>
                             </div>
                             <div class="field">
-                                <input type="text" placeholder="Subject" name="subject" required>
+                                <input id="company" type="text" placeholder="Company Name" name="company" required>
+                            </div>
+                            <div class="field">
+                                <input id="00N5g00000HaQga" type="text" placeholder="Subject" name="00N5g00000HaQga" required>
                             </div>
                             <div class="field textarea">
-                                <textarea cols="30" rows="10" placeholder="Message.." name="message"
+                                <textarea cols="30" rows="10" placeholder="Message.." name="description"
                                     required></textarea>
                             </div>
                             <div class="button">
