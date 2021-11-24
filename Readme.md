@@ -7,17 +7,17 @@
 
 > Salesforce Setup
 
-![](data/2.png)
+![](Data/2.png)
 
 > Google Analytics Setup
 
-![](data/3.png)
+![](Data/3.png)
 
 > Google Analytics linked
 
-![](data/4.png)
+![](Data/4.png)
 
-![](data/5.png)
+![](Data/5.png)
 
 
 > Leads generated in my org 
@@ -27,4 +27,4 @@ https://user-images.githubusercontent.com/61583488/143172474-8ccdad04-4b8a-4e8d-
 
 > License 
 
-![](data/1.png)
+![](Data/1.png)
